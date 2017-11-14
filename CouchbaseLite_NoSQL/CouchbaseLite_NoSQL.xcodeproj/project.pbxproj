@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8294D321FBA8DDC0011D601 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D311FBA8DDC0011D601 /* AppDelegate.m */; };
+		F8294D351FBA8DDC0011D601 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D341FBA8DDC0011D601 /* ViewController.m */; };
+		F8294D381FBA8DDC0011D601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8294D361FBA8DDC0011D601 /* Main.storyboard */; };
+		F8294D3A1FBA8DDC0011D601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8294D391FBA8DDC0011D601 /* Assets.xcassets */; };
+		F8294D3D1FBA8DDC0011D601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8294D3B1FBA8DDC0011D601 /* LaunchScreen.storyboard */; };
+		F8294D401FBA8DDC0011D601 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D3F1FBA8DDC0011D601 /* main.m */; };
+		F8294D491FBA8E710011D601 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8294D481FBA8E710011D601 /* CouchbaseLite.framework */; };
+		F8294D4C1FBA8FE50011D601 /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D4B1FBA8FE50011D601 /* DBManager.m */; };
+		F8294D4F1FBA90CD0011D601 /* SingleJobQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F8294D4E1FBA90CD0011D601 /* SingleJobQueue.m */; };
+		F8847B011FBA9EF4001B7115 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8847B001FBA9EEA001B7115 /* CFNetwork.framework */; };
+		F8847B031FBA9F09001B7115 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8847B021FBA9EFD001B7115 /* Security.framework */; };
+		F8847B051FBA9F19001B7115 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8847B041FBA9F12001B7115 /* SystemConfiguration.framework */; };
+		F8847B071FBA9F22001B7115 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8847B061FBA9F22001B7115 /* libsqlite3.tbd */; };
+		F8847B091FBA9F36001B7115 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8847B081FBA9F36001B7115 /* libz.tbd */; };
+		F8847B0B1FBA9F48001B7115 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F8847B0A1FBA9F48001B7115 /* libc++.tbd */; };
+		F8847B0E1FBABC8C001B7115 /* DBModelIDMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F8847B0D1FBABC8C001B7115 /* DBModelIDMap.m */; };
+		F8847B111FBABD0A001B7115 /* DBModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F8847B101FBABD0A001B7115 /* DBModelBase.m */; };
+		F8847B151FBAC0EE001B7115 /* UserDataDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F8847B141FBAC0EE001B7115 /* UserDataDBModel.m */; };
+		F8847B1A1FBACC2E001B7115 /* DatabaseSetupUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F8847B191FBACC2E001B7115 /* DatabaseSetupUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8294D2D1FBA8DDC0011D601 /* CouchbaseLite_NoSQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouchbaseLite_NoSQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8294D301FBA8DDC0011D601 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8294D311FBA8DDC0011D601 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8294D331FBA8DDC0011D601 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8294D341FBA8DDC0011D601 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8294D371FBA8DDC0011D601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8294D391FBA8DDC0011D601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8294D3C1FBA8DDC0011D601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8294D3E1FBA8DDC0011D601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8294D3F1FBA8DDC0011D601 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8294D481FBA8E710011D601 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
+		F8294D4A1FBA8FE50011D601 /* DBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		F8294D4B1FBA8FE50011D601 /* DBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		F8294D4D1FBA90CD0011D601 /* SingleJobQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleJobQueue.h; sourceTree = "<group>"; };
+		F8294D4E1FBA90CD0011D601 /* SingleJobQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleJobQueue.m; sourceTree = "<group>"; };
+		F8847B001FBA9EEA001B7115 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F8847B021FBA9EFD001B7115 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F8847B041FBA9F12001B7115 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F8847B061FBA9F22001B7115 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F8847B081FBA9F36001B7115 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F8847B0A1FBA9F48001B7115 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F8847B0C1FBABC8C001B7115 /* DBModelIDMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBModelIDMap.h; sourceTree = "<group>"; };
+		F8847B0D1FBABC8C001B7115 /* DBModelIDMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBModelIDMap.m; sourceTree = "<group>"; };
+		F8847B0F1FBABD0A001B7115 /* DBModelBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBModelBase.h; sourceTree = "<group>"; };
+		F8847B101FBABD0A001B7115 /* DBModelBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBModelBase.m; sourceTree = "<group>"; };
+		F8847B131FBAC0EE001B7115 /* UserDataDBModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDataDBModel.h; sourceTree = "<group>"; };
+		F8847B141FBAC0EE001B7115 /* UserDataDBModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDataDBModel.m; sourceTree = "<group>"; };
+		F8847B181FBACC2E001B7115 /* DatabaseSetupUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseSetupUtil.h; sourceTree = "<group>"; };
+		F8847B191FBACC2E001B7115 /* DatabaseSetupUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseSetupUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8294D2A1FBA8DDC0011D601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8847B071FBA9F22001B7115 /* libsqlite3.tbd in Frameworks */,
+				F8847B0B1FBA9F48001B7115 /* libc++.tbd in Frameworks */,
+				F8847B091FBA9F36001B7115 /* libz.tbd in Frameworks */,
+				F8847B051FBA9F19001B7115 /* SystemConfiguration.framework in Frameworks */,
+				F8847B031FBA9F09001B7115 /* Security.framework in Frameworks */,
+				F8847B011FBA9EF4001B7115 /* CFNetwork.framework in Frameworks */,
+				F8294D491FBA8E710011D601 /* CouchbaseLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8294D241FBA8DDC0011D601 = {
+			isa = PBXGroup;
+			children = (
+				F8294D2F1FBA8DDC0011D601 /* CouchbaseLite_NoSQL */,
+				F8294D2E1FBA8DDC0011D601 /* Products */,
+				F8847AFF1FBA9EEA001B7115 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8294D2E1FBA8DDC0011D601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8294D2D1FBA8DDC0011D601 /* CouchbaseLite_NoSQL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8294D2F1FBA8DDC0011D601 /* CouchbaseLite_NoSQL */ = {
+			isa = PBXGroup;
+			children = (
+				F8847B121FBAC0A6001B7115 /* DBModel */,
+				F8294D461FBA8DFD0011D601 /* NoSQLDB */,
+				F8294D301FBA8DDC0011D601 /* AppDelegate.h */,
+				F8294D311FBA8DDC0011D601 /* AppDelegate.m */,
+				F8294D331FBA8DDC0011D601 /* ViewController.h */,
+				F8294D341FBA8DDC0011D601 /* ViewController.m */,
+				F8294D361FBA8DDC0011D601 /* Main.storyboard */,
+				F8294D391FBA8DDC0011D601 /* Assets.xcassets */,
+				F8294D3B1FBA8DDC0011D601 /* LaunchScreen.storyboard */,
+				F8294D3E1FBA8DDC0011D601 /* Info.plist */,
+				F8294D3F1FBA8DDC0011D601 /* main.m */,
+			);
+			path = CouchbaseLite_NoSQL;
+			sourceTree = "<group>";
+		};
+		F8294D461FBA8DFD0011D601 /* NoSQLDB */ = {
+			isa = PBXGroup;
+			children = (
+				F8294D471FBA8E210011D601 /* lib */,
+				F8294D4A1FBA8FE50011D601 /* DBManager.h */,
+				F8294D4B1FBA8FE50011D601 /* DBManager.m */,
+				F8294D4D1FBA90CD0011D601 /* SingleJobQueue.h */,
+				F8294D4E1FBA90CD0011D601 /* SingleJobQueue.m */,
+				F8847B0C1FBABC8C001B7115 /* DBModelIDMap.h */,
+				F8847B0D1FBABC8C001B7115 /* DBModelIDMap.m */,
+				F8847B0F1FBABD0A001B7115 /* DBModelBase.h */,
+				F8847B101FBABD0A001B7115 /* DBModelBase.m */,
+				F8847B181FBACC2E001B7115 /* DatabaseSetupUtil.h */,
+				F8847B191FBACC2E001B7115 /* DatabaseSetupUtil.m */,
+			);
+			path = NoSQLDB;
+			sourceTree = "<group>";
+		};
+		F8294D471FBA8E210011D601 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F8294D481FBA8E710011D601 /* CouchbaseLite.framework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		F8847AFF1FBA9EEA001B7115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8847B0A1FBA9F48001B7115 /* libc++.tbd */,
+				F8847B081FBA9F36001B7115 /* libz.tbd */,
+				F8847B061FBA9F22001B7115 /* libsqlite3.tbd */,
+				F8847B041FBA9F12001B7115 /* SystemConfiguration.framework */,
+				F8847B021FBA9EFD001B7115 /* Security.framework */,
+				F8847B001FBA9EEA001B7115 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8847B121FBAC0A6001B7115 /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				F8847B131FBAC0EE001B7115 /* UserDataDBModel.h */,
+				F8847B141FBAC0EE001B7115 /* UserDataDBModel.m */,
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8294D2C1FBA8DDC0011D601 /* CouchbaseLite_NoSQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8294D431FBA8DDC0011D601 /* Build configuration list for PBXNativeTarget "CouchbaseLite_NoSQL" */;
+			buildPhases = (
+				F8294D291FBA8DDC0011D601 /* Sources */,
+				F8294D2A1FBA8DDC0011D601 /* Frameworks */,
+				F8294D2B1FBA8DDC0011D601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CouchbaseLite_NoSQL;
+			productName = CouchbaseLite_NoSQL;
+			productReference = F8294D2D1FBA8DDC0011D601 /* CouchbaseLite_NoSQL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8294D251FBA8DDC0011D601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = liang;
+				TargetAttributes = {
+					F8294D2C1FBA8DDC0011D601 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8294D281FBA8DDC0011D601 /* Build configuration list for PBXProject "CouchbaseLite_NoSQL" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8294D241FBA8DDC0011D601;
+			productRefGroup = F8294D2E1FBA8DDC0011D601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8294D2C1FBA8DDC0011D601 /* CouchbaseLite_NoSQL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8294D2B1FBA8DDC0011D601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8294D3D1FBA8DDC0011D601 /* LaunchScreen.storyboard in Resources */,
+				F8294D3A1FBA8DDC0011D601 /* Assets.xcassets in Resources */,
+				F8294D381FBA8DDC0011D601 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8294D291FBA8DDC0011D601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8294D4F1FBA90CD0011D601 /* SingleJobQueue.m in Sources */,
+				F8847B0E1FBABC8C001B7115 /* DBModelIDMap.m in Sources */,
+				F8294D351FBA8DDC0011D601 /* ViewController.m in Sources */,
+				F8294D401FBA8DDC0011D601 /* main.m in Sources */,
+				F8847B151FBAC0EE001B7115 /* UserDataDBModel.m in Sources */,
+				F8294D321FBA8DDC0011D601 /* AppDelegate.m in Sources */,
+				F8294D4C1FBA8FE50011D601 /* DBManager.m in Sources */,
+				F8847B1A1FBACC2E001B7115 /* DatabaseSetupUtil.m in Sources */,
+				F8847B111FBABD0A001B7115 /* DBModelBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8294D361FBA8DDC0011D601 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8294D371FBA8DDC0011D601 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8294D3B1FBA8DDC0011D601 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8294D3C1FBA8DDC0011D601 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8294D411FBA8DDC0011D601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8294D421FBA8DDC0011D601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8294D441FBA8DDC0011D601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N7DECL4Z5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CouchbaseLite_NoSQL/NoSQLDB/lib",
+				);
+				INFOPLIST_FILE = CouchbaseLite_NoSQL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaokai.CouchbaseLite-NoSQL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8294D451FBA8DDC0011D601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N7DECL4Z5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CouchbaseLite_NoSQL/NoSQLDB/lib",
+				);
+				INFOPLIST_FILE = CouchbaseLite_NoSQL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaokai.CouchbaseLite-NoSQL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8294D281FBA8DDC0011D601 /* Build configuration list for PBXProject "CouchbaseLite_NoSQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8294D411FBA8DDC0011D601 /* Debug */,
+				F8294D421FBA8DDC0011D601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8294D431FBA8DDC0011D601 /* Build configuration list for PBXNativeTarget "CouchbaseLite_NoSQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8294D441FBA8DDC0011D601 /* Debug */,
+				F8294D451FBA8DDC0011D601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8294D251FBA8DDC0011D601 /* Project object */;
+}
